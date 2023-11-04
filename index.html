@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedAchraf Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/norlalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font/awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav__link">HOME</a></li>
+                <li class="nav-item"><a href="#services" class="nav__link">PROFESSIONAL EXPERIENCES</a></li>
+                <li class="nav-item"><a href="#about" class="nav__link">EDUCATION</a></li>
+                <li class="nav-item"><a href="#work" class="nav__link">MY PROJECTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi! I am <strong>Mohamed Achraf Hamrouni</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">DEVOPS & WEB DEVELOPMENT ENTHUSIAST
+            </p>
+        <img src="imgs/266843811_3067111926869820_9086102061132412896_n.jpg" class="intro__img">
+    </section>
+    
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">PROFESSIONAL EXPERIENCES</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Back-End Development Intern</h3><h4>-Proxym-Group-</h4>
+                <ul>
+                    <li>Development of an AI-based application to detect fraudulent bank transactions.
+                    </li>
+                    <li>Design of a Python API to query the generated model.
+                    </li>
+                    <li>User registration, authentication, and transaction history management.</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Web development intern</h3><h4>-GCT-</h4>
+                <ul>
+                    <li>Development of a web application site for the Legal Affairs Department of the Groupe
+                        Chimique Tunisien (GCT).                        
+                    </li>
+                    <li>Improvement of the procedure for processing and tracking dispute cases.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">MY PROJECTS</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">EDUCATION</h2>
+        <p class="section__subtitle section__subtitle--about">Engineering Student in Networks and Cloud
+            Infrastructure
+            </p>
+
+        <div class="about-me__body">
+            <p>I am Hamrouni Mohamed Achraf, an engineering student specializing in Networks and Cloud Infrastructure.
+            </p>
+            <p> I have completed internships in back-end development and web development, where I worked on projects involving fraud detection and dispute case management. I also have experience in deploying microservices applications in Kubernetes clusters.
+            </p>
+            <p> I hold certifications in Azure Cloud Fundamentals, Spring Boot development, Angular development, and CCNAv7: Introduction to Networks. My skills encompass programming languages, DevOps tools, web development, and proficiency in operating systems.</p>
+            <p>Additionally, I have a keen interest in football and tennis.</p>
+        </div>
+
+        <img src="imgs/132392060_2801372650110417_6614148166534828814_n.jpg" alt="MedAchraf rayya9" class="about-me__img">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title secction__title--work">MY PROJECTS</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <div class="portfolio__item">
+                <h3>Deploy a microservices application for an online store in a Kubernetes cluster</h3>
+                <ul>
+                    <li>Creating a deployment and service configuration for each microservice</li>
+                    <li>Implementation of production and security</li>
+                    <li>Creating a Helm Chart for each microservice</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>E-commerce application</h3>
+                <ul>
+                    <li>Presentation of products in an organized and professional manner, with detailed
+                        descriptions and photos.
+                        </li>
+                    <li>Facilitating the discovery of the offered products and order placement by customers.
+                    </li>
+                </ul>
+            </div>
+            <div class="portfolio__item">
+                <h3>Skills / Tools used</h3>
+                <img src="imgs/Angular_full_color_logo.svg.png" class="portfolio__img">
+                <img src="imgs/spring-boot-logo.png" class="portfolio__img">
+                <img src="imgs/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png" class="portfolio__img">
+                <img src="imgs/K8S-logo.png" class="portfolio__img">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="mailto:mohamedachrafhamrouni@gmail.com" class="footer__link">mohamedachrafhamrouni@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedIn.com">LinkedIn</a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">Github</a>   
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
